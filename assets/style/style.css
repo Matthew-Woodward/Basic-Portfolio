@@ -1,0 +1,243 @@
+html {
+	position: relative;
+}
+html, body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #efefef;
+	background: #efefef url("../images/shattered.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+}
+
+header .container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.name, .nav {
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+	width: 50%;
+}
+
+.logo {
+	display: inline-block;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 1em;
+	width: auto;
+}
+
+
+.nav {
+	width: 49%;
+	text-align: right;
+	color: #b1adb3;
+	font-weight: normal;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+
+.nav ul li a {
+	color: #b1adb3;
+	text-decoration: none;
+	-webkit-transition: color .4s;
+	transition: color .4s;
+}
+
+
+.nav ul li+li {
+	
+	border-left: 1px solid #cccccc;
+}
+
+
+.content {
+	width: 960px;
+	clear: both;
+	margin: 0 auto 6em auto;
+}
+
+.main {
+	display: inline-block;
+	width: 960px;
+	margin: 40px 0;
+	padding: 40px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.main h1 {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	margin-bottom: 0.8em;
+	border-bottom: 2px solid #dddddd;
+}
+
+.main p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}
+
+img.mypic {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 192px;
+	height: 256px;
+}
+
+
+
+
+.item-name {
+	position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	z-index: 1000;
+}
+
+
+
+.contact input, .contact textarea {
+	width: 100%;
+	border: 1px solid #cccccc;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	font-size: .9em;
+}
+
+
+.contact input[type="submit"] {
+	width: auto;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	padding: 1em 2em;
+	font-size: 1em;
+}
+
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 3em;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 7px solid #4aaaa5;
+}
+#portfolio {
+	background-color: #ffffff;
+	width: 700px;
+	height: 875px;
+	margin-left: 450px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	float: left;
+}
+h4 {
+ 	font-family: "Georgia", Times, "Times New Roman", serif;
+ 	font-size: 20px;
+ 	color: #ffffff;
+ 	padding-top: 18px;
+ 	text-align: center;
+ }
+ article {
+	background-color: #4aaaa5;
+ 	width: 264px;
+ 	height: 60px;
+ 	margin-top: 126px;
+ }
+.hang {
+	background-image: url("https://placekitten.com/270/200");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 30px;
+	float: left;
+}
+.rpg {
+	background-image: url("https://placekitten.com/270/200");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-right: 34px;
+	float: right;
+}
+.trivia {
+	background-image: url("https://placekitten.com/270/200");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-top: 54px;
+	margin-left: 30px;
+	float: left;
+}
+.rutgers {
+	background-image: url("https://placekitten.com/270/200");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-top: 54px;
+	margin-right: 34px;
+	float: right;
+}
+.rock {
+	background-image: url("https://placekitten.com/270/200");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-top: 54px;
+	margin-left: 30px;
+	float: left;
